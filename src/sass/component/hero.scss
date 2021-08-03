@@ -36,10 +36,6 @@ header-top {
         a:not(.btn) {
             padding: 5px;
             color: $dark;
-
-            &:nth-child(2) {
-                margin-right: 10px;
-            }
         }
 
         .hidden {

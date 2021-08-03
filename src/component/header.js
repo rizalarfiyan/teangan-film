@@ -25,8 +25,8 @@ export default class Header extends HTMLElement {
                     <div class="sitename">${this._sitename}</div>
                 </div>
                 <div class="right">
-                <a href="https://github.com/rizalarfiyan"><i class="fa fa-facebook"></i></a>
-                <a href="https://github.com/rizalarfiyan"><i class="fa fa-instagram"></i></a>
+                <a href="mailto:rizal.arfiyan.23@gmail.com"><i class="fa fa-envelope"></i></a>
+                <a href="https://instagram.com/rizalarfiyan"><i class="fa fa-instagram"></i></a>
                 <a href="https://github.com/rizalarfiyan"><i class="fa fa-github"></i></a>
                 </div>
             </div>

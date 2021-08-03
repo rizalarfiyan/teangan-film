@@ -66,7 +66,7 @@ module.exports = {
             devMode: 'webapp',
             favicons: {
                 appName: 'Teangan Film',
-                appDescription: 'Teangan Film adalah aplikasi bla bla bla',
+                appDescription: 'Teangan film adalah sebuah project aplikasi database film dengan memanfaatkan API The Movie DB.',
                 developerName: 'Rizal Arfiyan',
                 developerURL: 'https://github.com/rizalarfiyan/',
                 background: '#FFFFFF',
