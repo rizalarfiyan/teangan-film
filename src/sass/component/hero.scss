@@ -1,0 +1,66 @@
+header {
+    background: $red;
+    position: relative;
+    overflow: hidden;
+    @include gradientbg;
+}
+
+header-top {
+
+    .wrapper,
+    .wraplogo {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+
+    nav.navtop {
+        background: $white;
+        position: fixed;
+        width: 100%;
+        z-index: 8;
+        box-shadow: 2px 8px 20px rgba(0, 0, 0, .14);
+
+        .wrapper {
+            padding: 10px 0;
+            color: $dark;
+            font-size: 20px;
+            text-align: center;
+            justify-content: space-between;
+        }
+
+    }
+
+    .right {
+        a:not(.btn) {
+            padding: 5px;
+            color: $dark;
+
+            &:nth-child(2) {
+                margin-right: 10px;
+            }
+        }
+
+        .hidden {
+            display: none;
+        }
+    }
+
+    .wraplogo {
+        .logo {
+            svg {
+                height: 40px;
+                width: 40px;
+                fill: $dark;
+            }
+        }
+
+        .sitename {
+            margin-left: 14px;
+            text-align: center;
+            font-size: 26px;
+            font-weight: 500;
+        }
+    }
+}

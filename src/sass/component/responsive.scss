@@ -1,0 +1,51 @@
+@media only screen and (max-width: 620px) {
+    .modal .content {
+        flex-direction: column;
+        .kiri {
+            width: 100%;
+        }
+
+        .kanan {
+            margin: 0;
+            text-align: center;
+
+            .release {
+                justify-content: center;
+            }
+
+            h1 {
+                font-size: 26px;
+                display: block;
+                line-height: 1.3;
+                margin: 10px 0;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 540px) {
+    header-top .right {
+        .btn {
+            display: none;
+        }
+
+        a {
+            margin: 0px!important;
+            &.hidden {
+                display: inline-block;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 375px) {
+    header-top {
+        .wraplogo {
+            margin: auto;
+        }
+        
+        .right {
+            display: none;
+        }
+    }
+}

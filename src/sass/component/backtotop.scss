@@ -1,0 +1,40 @@
+.backtotop {
+    display: block;
+    position: fixed !important;
+    bottom: 60px;
+    right: 35px;
+    cursor: pointer;
+    font-weight: bold;
+    z-index: 19;
+    padding: 12px 10px;
+    background-color: $red;
+    border-radius: 10px;
+    transition: transform .5s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+    transform: translateY(0);
+
+    span {
+        height: 25px;
+        width: 30px;
+        display: inline-block;
+        text-align: center;
+        color: $white;
+
+        &:before {
+            font-family: FontAwesome;
+            font-size: 25px;
+            content: "\f106"
+        }
+    }
+
+    &.is-active {
+        transform: translateY(120px);
+        transition: transform .5s cubic-bezier(0.075, 0.82, 0.165, 1);
+    }
+}
+
+@media only screen and (max-width: 790px) {
+    .backtotop {
+        bottom: 20px;
+        right: 20px;
+    }
+}

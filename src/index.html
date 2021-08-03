@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Teangan Film</title>
+    <meta name="keywords" content="search, search film, teangan film, database film, rizal arfiyan, dicoding, submission, bdd bekraf 2020, event bdd, javascript" />
+    <meta name="description" content="Teangan film is project for submission of learn the basic of Front End Web Developer in dicoding. This is simple Javascript script using API from TMDB (The Movie Database)." />
+    <meta http-equiv="page-enter" content="revealtrans(duration=seconds,transition=num)">
+    <meta http-equiv="page-exit" content="revealtrans(duration=seconds,transition=num)">
+    <meta content='Teangan Film' property='og:site_name'>
+    <meta content='Teangan Film' property='og:title'>
+    <meta content='website' property='og:type'>
+    <meta content='#F25F5C' name='msapplication-navbutton-color'>
+    <meta content='#F25F5C' name='apple-mobile-web-app-status-bar-style'>
+    <meta content='#F25F5C' name='theme-color'>
+    <meta content='#' name='google-site-verification'>
+    <meta content='Indonesia' name='gßeo.placename'>
+    <meta content='Rizal Arfiyan' name='Author'>
+    <meta content='general' name='rating'>
+    <meta content='id' name='geo.country'>
+</head>
+
+<body>
+
+    <wrap-header></wrap-header>
+    <main class="wrapper">
+        <list-film></list-film>
+        <article>
+            <search-film data-position="popular">
+                <wrap-film></wrap-film>
+            </search-film>
+            <prevnext>
+                <load-prev></load-prev>
+                <load-next></load-next>
+            </prevnext>
+        </article>
+    </main>
+    <about-section></about-section>
+    <div class="modal" id="detailfilm">
+        <button data-close-button class="btn close clickanim"><i class="fa fa-times"></i></button>
+        <div class="backdrop">
+            <div class="images">
+                <span class="devider"></span>
+            </div>
+        </div>
+        <div class="content">
+            <div class="kiri">
+                <div class="images"></div>
+                <div class="wrapdetail"></div>
+                <div class="label"></div>
+            </div>
+            <div class="kanan"></div>
+        </div>
+    </div>
+    <div id="overlay"></div>
+    <backto-top></backto-top>
+    <footer-bottom></footer-bottom>
+</body>
+
+</html>

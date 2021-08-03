@@ -1,0 +1,31 @@
+.btn {
+    display: inline-block;
+    margin-bottom: 0;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 4px 14px;
+    border-radius: $radius;
+    color: $dark;
+    
+    i {
+        margin-right: 5px;
+    }
+
+    border: 1px solid $dark;
+    &.btn-ln {
+        border: 1px solid $dark;
+    }
+}
+
+button, .btn {
+    &:active, &:focus, &:hover {
+        outline:none !important;
+    }
+}
